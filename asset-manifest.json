@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.62d494b5.css",
+    "main.js": "/Portfolio/static/js/main.ecc17539.js",
+    "static/js/592.9ae6a20a.chunk.js": "/Portfolio/static/js/592.9ae6a20a.chunk.js",
+    "static/media/Recycle gear.png": "/Portfolio/static/media/Recycle gear.5026335688090ce831ce.png",
+    "static/media/copeople.png": "/Portfolio/static/media/copeople.d67f7e541d45db45cf45.png",
+    "index.html": "/Portfolio/index.html",
+    "main.62d494b5.css.map": "/Portfolio/static/css/main.62d494b5.css.map",
+    "main.ecc17539.js.map": "/Portfolio/static/js/main.ecc17539.js.map",
+    "592.9ae6a20a.chunk.js.map": "/Portfolio/static/js/592.9ae6a20a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d494b5.css",
+    "static/js/main.ecc17539.js"
+  ]
+}
