@@ -32,12 +32,12 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>Hi, I'm Satyam Sinha, a 2023 graduate 🎓 with a dedication to building scalable and efficient Java-based web applications. As a <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/nithin-manda-728019214/' target='_blank'>Software developer</a>, I specialize in Java full stack development 🚀, delivering seamless and high-performing solutions from front to back.
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>Hi, I'm Satyam Sinha, a 2023 graduate 🎓 with a dedication to building scalable and efficient Java-based web applications. As a <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/satyam-sinha-0397b8296/' target='_blank'>Software developer</a>, I specialize in Java full stack development 🚀, delivering seamless and high-performing solutions from front to back.
               <br />
               ✍️ Beyond coding, I love exploring the latest advancements in technology and constantly improving my skills. Whether it's learning new programming languages, experimenting with innovative software solutions, or staying updated with industry trends, I'm always eager to expand my knowledge and share it with others. 🎮 Beyond the tech world, gaming is my passion . Gaming isn't just a pastime; it's a way to immerse myself in different worlds and experience diverse stories. This hobby helps me relax and recharge, balancing my passion for technology with some fun and immersive experiences.</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1Q0iVTPkaT7l_YgntCpC14I-spFmsMOei/view?usp=sharing'
+              url='https://drive.google.com/file/d/1LARI3kKyh7_ZN3EmmEhz2A4rI6rOwUsl/view?usp=drive_link'
               text='View Resume →'
               padding={`p-3`}
             />
