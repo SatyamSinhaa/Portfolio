@@ -1,12 +1,15 @@
 import React from "react";
-import copeople from '../assets/copeople.png'
 import recycleGear from '../assets/Recycle gear.png'
 import foodCourt from '../assets/Food Court.png'
+import cryptoSearch from '../assets/Crypto Search.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            {title == 'Crypto Search' && <a href="#">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={cryptoSearch} alt="" />
+            </a>}
             {title == 'Recycle Gear' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={recycleGear} alt="" />
             </a>}
@@ -58,6 +61,13 @@ const Projects = () => {
 }
 
 export const project = [
+    {
+        title: 'Crypto Search',
+        description: 'This React project is a cryptocurrency search application that allows users to enter the name of a cryptocurrency and retrieve detailed information about it',
+        image: { cryptoSearch },
+        git: 'https://github.com/SatyamSinhaa/Crypto-Search',
+        technologies: ['React.JS' ,'Bootstrap']
+    },
     {
         title: 'Recycle Gear',
         description: ' "Recycle Gear" is an online marketplace akin to OLX, facilitating the buying and selling of used items. This project allows user to buy the products and also can list there products for selling',
