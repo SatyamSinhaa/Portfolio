@@ -7,7 +7,7 @@ import Footer from './Footer'
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-            {title == 'Crypto Search' && <a href="#">
+            {title == 'Crypto Search' && <a href="https://satyamsinhaa.github.io/Crypto-Search/" target="_blank">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={cryptoSearch} alt="" />
             </a>}
             {title == 'Recycle Gear' && <a href="#">
@@ -82,6 +82,7 @@ export const project = [
         git: "https://github.com/SatyamSinhaa/Food-Court-Management-System",
         technologies: ['java', 'jdbc']
     },
+    
 ]
 
 export default Projects;
