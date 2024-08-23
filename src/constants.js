@@ -19,8 +19,8 @@ export const name = 'Satyam';
 export const experiences = [
     {
         'company': 'Trade Syndicate',
-        'role': 'Front End intern',
-        'duration': 'Jully 2024 - Present',
+        'role': 'Front End Developer',
+        'duration': 'June 2024 - Present',
         'logo': 'https://www.tradesyndicate.in/assets/img/logo.png',
         'points': [
             'Played a key role in dynamic web and mobile📱 development projects, significantly enhancing user experiences and project outcomes through innovative front-end solutions.',
