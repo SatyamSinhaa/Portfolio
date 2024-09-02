@@ -25,6 +25,7 @@ const Navbar = () => {
         <div className="hidden sm:flex space-x-4 items-center text-sm">
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
+          <Link to='/certificates'>Certificates</Link>
         </div>
         <div className="text-3xl sm:text-2xl font-extrabold">
           <Link to="/">Satyam Sinha</Link>
