@@ -49,7 +49,7 @@ export const certificates = [
         title: 'TCS iON NQT - IT (2024)',
         description: '',
         image: tcs,
-        link: 'https://drive.google.com/file/d/1Qh_e-xMDD9urewjLIIOW2e0-rPuABm3P/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/1Qh_e-xMDD9urewjLIIOW2e0-rPuABm3P/view?usp=sharing',
     },
     {
         title: 'Java full stack development',
