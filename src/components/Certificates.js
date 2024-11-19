@@ -43,7 +43,7 @@ export const certificates = [
         title: 'EazyByts Infotech internship',
         description: '',
         image: easyByts,
-        link: 'https://drive.google.com/file/d/1Fhhel9TQFvPxCGlPoMhdfrh3xuuBsdBr/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/1Fhhel9TQFvPxCGlPoMhdfrh3xuuBsdBr/view?usp=sharing',
     },
     {
         title: 'TCS iON NQT - IT (2024)',
@@ -55,7 +55,7 @@ export const certificates = [
         title: 'Java full stack development',
         description: '',
         image: jspiders,
-        link: 'https://drive.google.com/file/d/1Obdhk50zr-4UGOozf2NBsdzqvZ69F2IQ/view?usp=drive_link',
+        link: 'https://drive.google.com/file/d/1Obdhk50zr-4UGOozf2NBsdzqvZ69F2IQ/view?usp=sharing',
     },
 ];
 
