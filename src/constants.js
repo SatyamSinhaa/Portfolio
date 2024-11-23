@@ -34,7 +34,7 @@ export const experiences = [
         'company': 'EazyByts Infotech',
         'role': 'Full Stack intern',
         'duration': 'May 2024 - June 2024',
-        'logo': 'https://media.licdn.com/dms/image/D560BAQG5AwxGpXkAtA/company-logo_100_100/0/1702810266648/eazybyts_logo?e=1729728000&v=beta&t=F2mKIrrmokjnvbbCoggfltnQl3ffChyKm1CltqS-dzg',
+        'logo': 'https://eazybyts.com/wp-content/uploads/2023/11/cropped-2.png',
         'points': [
             'Developed and maintained RESTful APIs using Java and Spring Boot, ensuring robust and scalable backend services.',
             'Integrated front-end technologies with backend services, leveraging frameworks and libraries to create seamless, interactive user interfaces.',
