@@ -3,6 +3,7 @@ import Footer from "./Footer";
 import easyByts from '../assets/easy byts.jpg'
 import jspiders from '../assets/jspiders.jpg'
 import tcs from '../assets/tcs.jpg'
+import javaAdv from '../assets/Java advanced assessment.jpg'
 
 const CertificateCard = ({ image, title, description, link }) => {
     return (
@@ -56,6 +57,12 @@ export const certificates = [
         description: '',
         image: jspiders,
         link: 'https://drive.google.com/file/d/1Obdhk50zr-4UGOozf2NBsdzqvZ69F2IQ/view?usp=sharing',
+    },
+    {
+        title: 'Java Advanced Assessment - CareerNinja',
+        description: '',
+        image: javaAdv,
+        link: 'https://drive.google.com/file/d/1vqnVrhFsIr798SO93LtGjcUoP88cSIN-/view?usp=sharing',
     },
 ];
 
