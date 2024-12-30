@@ -37,7 +37,7 @@ const About = () => {
               ✍️ Beyond coding, I love exploring the latest advancements in technology and constantly improving my skills. Whether it's learning new programming languages, experimenting with innovative software solutions, or staying updated with industry trends, I'm always eager to expand my knowledge and share it with others. 🎮 Beyond the tech world, gaming is my passion . Gaming isn't just a pastime; it's a way to immerse myself in different worlds and experience diverse stories. This hobby helps me relax and recharge, balancing my passion for technology with some fun and immersive experiences.</p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/1-GYTHUnvpUIpEKHiGRqAP_uQiuZ48IOB/view?usp=sharing'
+              url=''
               text='View Resume →'
               padding={`p-3`}
             />
