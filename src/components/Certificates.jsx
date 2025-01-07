@@ -4,6 +4,7 @@ import easyByts from '../assets/easy byts.jpg'
 import jspiders from '../assets/jspiders.jpg'
 import tcs from '../assets/tcs.jpg'
 import javaAdv from '../assets/Java advanced assessment.jpg'
+import ts from '../assets/trade syndicate.jpg'
 
 const CertificateCard = ({ image, title, description, link }) => {
     return (
@@ -41,7 +42,19 @@ const Certificates = () => {
 
 export const certificates = [
     {
-        title: 'EazyByts Infotech internship',
+        title: 'Internship at Trade Syndicate',
+        description: '',
+        image: ts,
+        link: 'https://drive.google.com/file/d/1UUQplgZnh7qnW8ir3QslbcNAhfUnvrMv/view?usp=sharing',
+    },
+    {
+        title: 'Java Advanced Assessment - CareerNinja',
+        description: '',
+        image: javaAdv,
+        link: 'https://drive.google.com/file/d/1vqnVrhFsIr798SO93LtGjcUoP88cSIN-/view?usp=sharing',
+    },
+    {
+        title: 'Internship at EazyByts Infotech',
         description: '',
         image: easyByts,
         link: 'https://drive.google.com/file/d/1Fhhel9TQFvPxCGlPoMhdfrh3xuuBsdBr/view?usp=sharing',
@@ -58,12 +71,7 @@ export const certificates = [
         image: jspiders,
         link: 'https://drive.google.com/file/d/1Obdhk50zr-4UGOozf2NBsdzqvZ69F2IQ/view?usp=sharing',
     },
-    {
-        title: 'Java Advanced Assessment - CareerNinja',
-        description: '',
-        image: javaAdv,
-        link: 'https://drive.google.com/file/d/1vqnVrhFsIr798SO93LtGjcUoP88cSIN-/view?usp=sharing',
-    },
+    
 ];
 
 export default Certificates
