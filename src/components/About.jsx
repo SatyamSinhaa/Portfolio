@@ -27,7 +27,6 @@ const ServiceCard = ({ service }) => (
 const About = () => {
   return (
     <div>
-
       <div className='bg-black h-full w-full text-white sm:flex sm:justify-around about py-12 mt-8 overflow-x-hidden' id='about'>
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
