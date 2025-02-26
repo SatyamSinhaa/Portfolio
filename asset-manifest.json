@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.99fde5be.css",
-    "main.js": "/Portfolio/static/js/main.8c0ef274.js",
+    "main.js": "/Portfolio/static/js/main.b184ac10.js",
     "static/js/592.9af2477c.chunk.js": "/Portfolio/static/js/592.9af2477c.chunk.js",
     "static/media/Java advanced assessment.jpg": "/Portfolio/static/media/Java advanced assessment.cd7cb782fafa969fc62a.jpg",
     "static/media/easy byts.jpg": "/Portfolio/static/media/easy byts.333deab0ef7a5f76e084.jpg",
@@ -9,15 +9,16 @@
     "static/media/tcs.jpg": "/Portfolio/static/media/tcs.fc020491a42b87f5a1cd.jpg",
     "static/media/Recycle gear.png": "/Portfolio/static/media/Recycle gear.5026335688090ce831ce.png",
     "static/media/Crypto Search.png": "/Portfolio/static/media/Crypto Search.37880f23893b141707fc.png",
+    "static/media/password generator.png": "/Portfolio/static/media/password generator.7934d65308a6d73d7615.png",
     "static/media/Food Court.png": "/Portfolio/static/media/Food Court.798c88d40fded487b75d.png",
     "static/media/jspiders.jpg": "/Portfolio/static/media/jspiders.bbd38cbc8e1e6587411e.jpg",
     "index.html": "/Portfolio/index.html",
     "main.99fde5be.css.map": "/Portfolio/static/css/main.99fde5be.css.map",
-    "main.8c0ef274.js.map": "/Portfolio/static/js/main.8c0ef274.js.map",
+    "main.b184ac10.js.map": "/Portfolio/static/js/main.b184ac10.js.map",
     "592.9af2477c.chunk.js.map": "/Portfolio/static/js/592.9af2477c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.99fde5be.css",
-    "static/js/main.8c0ef274.js"
+    "static/js/main.b184ac10.js"
   ]
 }
