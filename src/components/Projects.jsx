@@ -2,11 +2,15 @@ import React from "react";
 import recycleGear from '../assets/Recycle gear.png'
 import foodCourt from '../assets/Food Court.png'
 import cryptoSearch from '../assets/Crypto Search.png'
+import passwordGenerator from '../assets/password generator.png'
 import Footer from './Footer'
 
 const ProjectCard = ({ image, title, description, git, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            {title == 'Password Generator' && <a href="https://generate-pwd.netlify.app/" target="_blank">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={passwordGenerator} alt="" />
+            </a>}
             {title == 'Crypto Search' && <a href="https://satyamsinhaa.github.io/Crypto-Search/" target="_blank">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={cryptoSearch} alt="" />
             </a>}
@@ -33,7 +37,7 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                         </p>
                     ))}
                 </div>
-                <a href={git} className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
+                <a href={git} target="_blank" className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
             </div>
         </div>
     );
@@ -61,6 +65,13 @@ const Projects = () => {
 }
 
 export const project = [
+    {
+        title: 'Password Generator',
+        description: 'A simple password generator where users can generate secure passwords with customizable length and options to include numbers and special characters.',
+        image: { passwordGenerator },
+        git: 'https://github.com/SatyamSinhaa/password-generator',
+        technologies: ['React.JS' ,'Tailwind']
+    },
     {
         title: 'Crypto Search',
         description: 'This React project is a cryptocurrency search application that allows users to enter the name of a cryptocurrency and retrieve detailed information about it',

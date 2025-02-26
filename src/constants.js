@@ -20,8 +20,8 @@ export const experiences = [
     {
         'company': 'Trade Syndicate',
         'role': 'Front End Developer',
-        'duration': 'June 2024 - Present',
-        'logo': 'https://www.tradesyndicate.in/assets/img/logo.png',
+        'duration': 'June 2024 - January 2025',
+        'logo': 'https://www.tradesyndicate.in/assets/Trade%20Logo-BoJYB5ea.png',
         'points': [
             'Played a key role in dynamic web and mobile📱 development projects, significantly enhancing user experiences and project outcomes through innovative front-end solutions.',
             'Developed reusable React components to streamline development processes for fellow developers, fostering efficiency and collaborative teamwork.',
