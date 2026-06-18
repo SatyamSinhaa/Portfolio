@@ -13,21 +13,32 @@ const Experience = () => {
         <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Work Experience.</h2>
       </div>
       <VerticalTimeline className='mt-9'>
-        {experiences.map((experience) => (
+        {experiences.map((experience, index) => (
           <VerticalTimelineElement
+            key={index}
             className="relative vertical-timeline-element--work"
             contentStyle={{ background: "#1d1836", color: "#fff", }}
             contentArrowStyle={{ borderRight: "7px solid  #232631" }}
             date={experience.duration}
             iconStyle={{ background: '#fff' }}
             icon={
-              <a className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank'>
-                <img
-                  src={experience.logo}
-                  alt={experience.company}
-                  className='w-[60%] h-[60%] object-contain'
-                />
-              </a>
+              experience.url ? (
+                <a className='flex justify-center items-center w-full h-full' href={experience.url} target='_blank' rel='noopener noreferrer'>
+                  <img
+                    src={experience.logo || 'https://csgeeek.github.io/web.png'}
+                    alt={experience.company}
+                    className='w-[60%] h-[60%] object-contain'
+                  />
+                </a>
+              ) : (
+                <div className='flex justify-center items-center w-full h-full'>
+                  <img
+                    src={experience.logo || 'https://csgeeek.github.io/web.png'}
+                    alt={experience.company}
+                    className='w-[60%] h-[60%] object-contain'
+                  />
+                </div>
+              )
             }
           >
             <div>

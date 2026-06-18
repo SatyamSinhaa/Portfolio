@@ -1,4 +1,3 @@
-
 # Satyam Sinha - Portfolio
 
 This is the personal portfolio website of Satyam Sinha, built with React.js. It showcases various projects, work experience, certifications, and other details about my technical journey. The website is fully responsive and includes features like dynamic typing of my name, an interactive experience section, and easy navigation.

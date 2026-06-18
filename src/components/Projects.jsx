@@ -3,9 +3,11 @@ import recycleGear from '../assets/Recycle gear.png'
 import foodCourt from '../assets/Food Court.png'
 import cryptoSearch from '../assets/Crypto Search.png'
 import passwordGenerator from '../assets/password generator.png'
+import classroomCurator from '../assets/classroom curator.png'
+import hamarJodi from '../assets/Hamar Jodi.png'
 import Footer from './Footer'
 
-const ProjectCard = ({ image, title, description, git, technologies }) => {
+const ProjectCard = ({ image, title, description, git, playStore, technologies }) => {
     return (
         <div className="max-w-sm sm:max-w-sm md:max-w-sm bg-gray-900 border border-neutral-100 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
             {title == 'Password Generator' && <a href="https://generate-pwd.netlify.app/" target="_blank">
@@ -19,6 +21,15 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
             </a>}
             {title == 'Food Court' && <a href="#">
                 <img className="w-full rounded-t-lg h-auto object-cover " src={foodCourt} alt="" />
+            </a>}
+            {title == 'Hamar Jodi' && <a href="https://play.google.com/store/apps/details?id=com.hamarjodi.app" target="_blank" rel="noreferrer">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={hamarJodi} alt="Hamar Jodi" />
+            </a>}
+            {title == 'Classroom Curator' && <a href="https://github.com/SatyamSinhaa/classroom-curator" target="_blank" rel="noreferrer">
+                <img className="w-full rounded-t-lg h-auto object-cover " src={classroomCurator} alt="Classroom Curator" />
+            </a>}
+            {title == 'AI Code Security Auditor' && <a href="https://github.com/SatyamSinhaa/ai-code-security-auditor" target="_blank" rel="noreferrer">
+                <div className="w-full rounded-t-lg h-48 bg-gray-700 flex items-center justify-center text-gray-400">Image coming soon</div>
             </a>}
             <div className="p-4 sm:p-6">
                 <a href="#">
@@ -37,7 +48,10 @@ const ProjectCard = ({ image, title, description, git, technologies }) => {
                         </p>
                     ))}
                 </div>
-                <a href={git} target="_blank" className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>
+                <div className='flex gap-2'>
+                    {git && <a href={git} target="_blank" rel="noreferrer" className="text-red-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">GitHub</a>}
+                    {playStore && <a href={playStore} target="_blank" rel="noreferrer" className="text-blue-300 border border-gray-200 rounded-lg shadow p-1 sm:p-2 lg:p-3 hover:text-green-500 duration-300">Play Store</a>}
+                </div>
             </div>
         </div>
     );
@@ -55,6 +69,7 @@ const Projects = () => {
                         description={item.description}
                         links={item.links}
                         git={item.git}
+                        playStore={item.playStore}
                         technologies={item.technologies}
                     />
                 ))}
@@ -66,25 +81,46 @@ const Projects = () => {
 
 export const project = [
     {
+        title: 'Hamar Jodi',
+        description: 'A full-stack matrimony/matchmaking native Android app that connects people looking for life partners. It features detailed profile management, advanced search & matching, real-time chat, and push notifications.',
+        image: { hamarJodi },
+        playStore: "https://play.google.com/store/apps/details?id=com.hamarjodi.app",
+        technologies: ['Kotlin', 'Jetpack Compose', 'Spring Boot', 'PostgreSQL', 'Firebase']
+    },
+    {
+        title: 'Classroom Curator',
+        description: "Classroom Curator AI is a comprehensive, AI-powered educational platform designed to streamline a teacher's workflow, acting as an intelligent teaching assistant for lesson creation, assessment generation, and personalized student feedback.",
+        image: { classroomCurator },
+        git: "https://github.com/SatyamSinhaa/classroom-curator",
+        technologies: ['React', 'FastAPI', 'Tailwind', 'Google Gemini API']
+    },
+    {
+        title: 'AI Code Security Auditor',
+        description: "An advanced, AI-powered code analysis and security auditing platform utilizing a distributed microservice architecture. It combines local ML models for AST-aware code embeddings with Cloud LLMs for deep security reasoning.",
+        image: {},
+        git: "https://github.com/SatyamSinhaa/ai-code-security-auditor",
+        technologies: ['Go', 'Python', 'Redis', 'Qdrant', 'Gemini API']
+    },
+    {
         title: 'Password Generator',
         description: 'A simple password generator where users can generate secure passwords with customizable length and options to include numbers and special characters.',
         image: { passwordGenerator },
         git: 'https://github.com/SatyamSinhaa/password-generator',
-        technologies: ['React.JS' ,'Tailwind']
+        technologies: ['React.JS', 'Tailwind']
     },
     {
         title: 'Crypto Search',
         description: 'This React project is a cryptocurrency search application that allows users to enter the name of a cryptocurrency and retrieve detailed information about it',
         image: { cryptoSearch },
         git: 'https://github.com/SatyamSinhaa/Crypto-Search',
-        technologies: ['React.JS' ,'Bootstrap']
+        technologies: ['React.JS', 'Bootstrap']
     },
     {
         title: 'Recycle Gear',
         description: ' "Recycle Gear" is an online marketplace akin to OLX, facilitating the buying and selling of used items. This project allows user to buy the products and also can list there products for selling',
         image: { recycleGear },
         git: 'https://github.com/SatyamSinhaa/Buy-Sell-web-application-Recycle-Gear-',
-        technologies: ['java' ,'servlets']
+        technologies: ['java', 'servlets']
     },
     {
         title: 'Food Court',
@@ -92,8 +128,7 @@ export const project = [
         image: { foodCourt },
         git: "https://github.com/SatyamSinhaa/Food-Court-Management-System",
         technologies: ['java', 'jdbc']
-    },
-    
+    }
 ]
 
 export default Projects;

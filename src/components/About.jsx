@@ -31,12 +31,14 @@ const About = () => {
         <div className='flex flex-col justify-around'>
           <div className='sm:px-16 px-2'>
             <h2 className='text-4xl sm:text-5xl font-extrabold mt-2'>Introduction</h2>
-            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>Hi, I'm Satyam Sinha, a 2023 graduate 🎓 with a dedication to building scalable and efficient Java-based web applications. As a <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/satyam-sinha-0397b8296/' target='_blank'>Software developer</a>, I specialize in Java full stack development 🚀, delivering seamless and high-performing solutions from front to back.
+            <p className='mt-3 mb-6 text-[17px] max-w-3xl leading-[30px]'>
+              Hi, I'm Satyam Sinha, a <a className='text-green-300 hover:text-green-500 duration-300' href='https://www.linkedin.com/in/satyam-sinha-0aa865341/' target='_blank' rel='noreferrer'>Backend & AI/ML Engineer</a> specializing in high-concurrency architectures and distributed systems. My core expertise lies in building resilient microservices using Go and Java Spring Boot, paired with engineering production-ready machine learning pipelines in Python.
               <br />
-              ✍️ Beyond coding, I love exploring the latest advancements in technology and constantly improving my skills. Whether it's learning new programming languages, experimenting with innovative software solutions, or staying updated with industry trends, I'm always eager to expand my knowledge and share it with others. 🎮 Beyond the tech world, gaming is my passion . Gaming isn't just a pastime; it's a way to immerse myself in different worlds and experience diverse stories. This hobby helps me relax and recharge, balancing my passion for technology with some fun and immersive experiences.</p>
+              ✍️ I thrive on solving complex scalability problems—whether that means architecting concurrent worker pools, integrating low-latency message brokers, or optimizing data pipelines for predictive models. Beyond the screen, I’m an avid motorcycling enthusiast, finding a parallel between fine-tuning high-performance machines on the road and writing clean, optimized code for production.
+            </p>
 
             <ButtonLink
-              url='https://drive.google.com/file/d/111rCwrhu7tMx32nRm_9atQqbpgwxb6N5/view?usp=sharing'
+              url='https://drive.google.com/drive/folders/1fDAIkJKMMT9fKnKZnKXjqo2BFFv4nIFo?usp=sharing'
               text='View Resume →'
               padding={`p-3`}
             />
