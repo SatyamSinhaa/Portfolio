@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.99fde5be.css",
-    "main.js": "/Portfolio/static/js/main.b184ac10.js",
+    "main.css": "/Portfolio/static/css/main.5e51dc05.css",
+    "main.js": "/Portfolio/static/js/main.cbef8c57.js",
     "static/js/592.9af2477c.chunk.js": "/Portfolio/static/js/592.9af2477c.chunk.js",
     "static/media/Java advanced assessment.jpg": "/Portfolio/static/media/Java advanced assessment.cd7cb782fafa969fc62a.jpg",
+    "static/media/Hamar Jodi.png": "/Portfolio/static/media/Hamar Jodi.647050a11a82d10dabfb.png",
     "static/media/easy byts.jpg": "/Portfolio/static/media/easy byts.333deab0ef7a5f76e084.jpg",
-    "static/media/trade syndicate.jpg": "/Portfolio/static/media/trade syndicate.6d897fdb5fc5de324d73.jpg",
+    "static/media/trade syndicate.jpg": "/Portfolio/static/media/trade syndicate.864a5c10501001ea5066.jpg",
     "static/media/tcs.jpg": "/Portfolio/static/media/tcs.fc020491a42b87f5a1cd.jpg",
-    "static/media/Recycle gear.png": "/Portfolio/static/media/Recycle gear.5026335688090ce831ce.png",
-    "static/media/Crypto Search.png": "/Portfolio/static/media/Crypto Search.37880f23893b141707fc.png",
-    "static/media/password generator.png": "/Portfolio/static/media/password generator.7934d65308a6d73d7615.png",
-    "static/media/Food Court.png": "/Portfolio/static/media/Food Court.798c88d40fded487b75d.png",
+    "static/media/Recycle gear.png": "/Portfolio/static/media/Recycle gear.793d2d7c9ebadb981931.png",
     "static/media/jspiders.jpg": "/Portfolio/static/media/jspiders.bbd38cbc8e1e6587411e.jpg",
+    "static/media/classroom curator.png": "/Portfolio/static/media/classroom curator.21f58838f8ac5406ac44.png",
+    "static/media/Crypto Search.png": "/Portfolio/static/media/Crypto Search.4374bff7f77351d53583.png",
+    "static/media/Food Court.png": "/Portfolio/static/media/Food Court.6f411cc39a0ce0ea3783.png",
+    "static/media/password generator.png": "/Portfolio/static/media/password generator.0da8510f42a1d9350e65.png",
     "index.html": "/Portfolio/index.html",
-    "main.99fde5be.css.map": "/Portfolio/static/css/main.99fde5be.css.map",
-    "main.b184ac10.js.map": "/Portfolio/static/js/main.b184ac10.js.map",
+    "main.5e51dc05.css.map": "/Portfolio/static/css/main.5e51dc05.css.map",
+    "main.cbef8c57.js.map": "/Portfolio/static/js/main.cbef8c57.js.map",
     "592.9af2477c.chunk.js.map": "/Portfolio/static/js/592.9af2477c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.99fde5be.css",
-    "static/js/main.b184ac10.js"
+    "static/css/main.5e51dc05.css",
+    "static/js/main.cbef8c57.js"
   ]
 }
